@@ -13,7 +13,7 @@
 } */
 
 .navContainer {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     font-family: 'Poppins', sans-serif;
     color: rgb(0, 0, 0);
     display: flex;
@@ -24,7 +24,7 @@
 }
 
 .left {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     align-items: center;
     /* margin-left: 33px; */
@@ -41,7 +41,7 @@
 }
 
 .right {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 570px;
     margin-right: 3%;
 }
@@ -59,7 +59,7 @@
     color: rgb(0, 0, 0);
 }
 
-.right>ul>button {
+.right>ul>li>a>button {
     padding: 9px 25px;
     border: none;
     border-radius: 50px;
@@ -69,7 +69,7 @@
     transition: all 0.3s ease 0s;
 }
 
-.right>ul>button:hover {
+.right>ul>li>a>button:hover {
     background-color: rgba(29, 29, 253, 0.822);
 }
 
