@@ -2,109 +2,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&display=swap');
-.container {
-    /* border: 2px solid black; */
+
+.HeroSection {
+    /* border: 2px solid green; */
     width: 100vw;
     height: 87vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap-reverse;
     font-family: 'Poppins', sans-serif;
 }
 
-.textBox, .imgBox{
+
+.HeroSection>.heroRight,
+.heroLeft {
     /* border: 1px solid red; */
-    width: 50%;
-    height: 100%;
+    width: 60rem;
+    /* height: 100%; */
     display: flex;
     align-items: center;
-    justify-content: center; 
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.textBox>.textBox__content{
-    /* border: 1px solid green; */
-    width: 85%;
-    margin-left: 50px;
+
+.heroRight>.aiRobot {
+    width: 45rem;
 }
 
-.textBox>.textBox__content>h1{
-    color: #EA715A;
-    font-size: 5em;
-    /* font-family: 'Bowlby One SC', cursive; */
-    /* font-family: 'Prompt', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
+.heroLeft>.text {
+    /* border: 1px solid red; */
+    width: 80%;
+    padding: 1rem;
+}
+
+.heroLeft>.text>.mainHeading {
+    font-size: 7rem;
     font-family: 'Montserrat', sans-serif;
-    line-height: 90px;
-    letter-spacing: 3px;
     font-weight: 900;
+    color: #FF0800;
+
 }
 
-.textBox>.textBox__content>p{
+.heroLeft>.text>.mainHeading>#mainHeading__span {
+    margin-left: 10px;
     color: #1A2E37;
+}
+
+.heroLeft>.text>.para {
+    font-size: 1.4rem;
     font-family: 'Prompt', sans-serif;
     font-weight: 400;
-    font-size: 20;
     line-height: 1.5;
 }
 
-.textBox>.textBox__content>h1>#textBox__head__span{
-    color: #385A64;
-    margin-left: 10px;
-}
-
-.textBox>.textBox__content>button {
-    padding: 9px 25px;
+.heroLeft>.text>.text__btn {
+    padding: .9rem 2.5rem;
     border: none;
-    border-radius: 50px;
-    background-color: #EA715A;
-    color: rgb(255, 255, 255);
+    border-radius: 5rem;
+    background-color: #FF0800;
+    color: white;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-.textBox>.textBox__content>button:hover {
-    background-color: red;
-}
-
-/* .textContainer>.text{
-    border: 1px solid red;
-    width: 80%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .textContainer>.text>{
-    font-size: 5em;
-}
-
-.textContainer>.text>p{
-    margin-top: 15px;
-} */
-
-
-.imgBox>.aiRobo {
-    width: 450px;
-    /* border: 1px solid salmon; */
+.heroLeft>.text>.text__btn:hover {
+    border: 0.1rem solid red;
+    background: none;
+    color: #EA715A;
+    font-weight: 600;
 }
 
 
 
-/* #block{
-    display: block;
-    font-family: 'Kanit', sans-serif;
-    line-height: 10px;
-}
 
-#red{
-    color: blue;
-    font-size: 6em;
-}
-
-#black{
-    color: black;
-    font-size: 5em;
-    margin-left: 5px;
-} */
+/* font-family: 'Bowlby One SC', cursive; */
+/* font-family: 'Prompt', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */

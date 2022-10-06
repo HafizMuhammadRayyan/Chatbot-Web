@@ -32,9 +32,15 @@
 }
 
 .left>#logoHeading {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-left: 5px;
+}
+
+.left>.logo {
+    /* font-size: 2rem; */
+    font-size: 3rem;
+    color: #FF0800;
 }
 
 .right {
@@ -52,6 +58,7 @@
 
 
 .right>ul>li>a {
+    font-size: 1.6rem;
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
@@ -60,20 +67,26 @@
     padding: 9px 25px;
     border: none;
     border-radius: 50px;
-    background-color: #EA715A;
-    color: rgb(255, 255, 255);
+    background-color: #FF0800;
+    color: white;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 .right>ul>li>a>button:hover {
-    background-color: red;
+    background-color: rgb(236, 76, 76);
 }
 
 .right>ul>li>a:hover {
-    color: rgba(29, 29, 253, 0.822);
+    color: #FF0800;
 }
 
 .left:hover {
-    color: rgba(29, 29, 253, 0.822);
+    color: #FF0800;
+}
+
+@media only screen and (max-width: 790px){
+    .right {
+        visibility: hidden;
+    }
 }

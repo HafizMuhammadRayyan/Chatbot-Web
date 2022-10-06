@@ -27,7 +27,7 @@ const Navbar = () => (
             <nav className="navContainer">
 
                 <div className="left">
-                <SiRobotframework size='2em' style={{color: "#EA715A"}}></SiRobotframework>
+                <SiRobotframework className='logo'></SiRobotframework>
                     <span id='logoHeading'>Chatbot</span>
                 </div>
 

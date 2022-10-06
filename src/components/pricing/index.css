@@ -1,3 +1,29 @@
-div>h1{
-    color: blue;
+
+.pricingSec{
+    width: 100vw;
+    height: 87vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.starter{
+    border: 1px solid red;
+    width: 350px;
+    height: 82%;
+    margin: 40px 20px 20px 20px;
+}
+.pro{
+    border: 1px solid red;
+    width: 350px;
+    height: 82%;
+    margin: 40px 20px 20px 20px;
+}
+.enterprise{
+    border: 1px solid red;
+    width: 350px;
+    height: 82%;
+    margin: 40px 20px 20px 20px;
 }
